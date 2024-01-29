@@ -1,0 +1,17 @@
+<audio preload="metadata ou none ou auto controls autoplay loop">
+	1<source src="pasta/musica.mp3" type="audio/mpeg>
+	2<source src=""pasta/musica.ogg" type="audio/ogg>
+	3<source src= "pasta/musica.wav" type="image/wav>
+	<p> Seu navegador não suporta áudio <a href="pasta/musica.mp3"
+	download="musica.mp3" type="audio/mpeg"></a></p>
+</audio>
+
+preload == indica se o audio será pré carregado ou não aceita três valores:
+	- metadata: vai carregar apenas as informações do arquivo.
+	- none: Não vai carregar absolutamente nada, até q o usuário clique no botão play ou um script inicie a reprodução
+	- auto(default): vai carregar o arquivo de aúdio inteiro assim que a página for carregada, mesmo que p usuário nunca aperte o play
+controls == mostra o player na tela
+autoplay ==  quando inserido vai iniciar a reprodução do áudio assim que a página for carregada
+loop ==  repete o áduio eternamente
+
+criamos mais source caso o primeiro fale, o <p> é para caso se todos falharem

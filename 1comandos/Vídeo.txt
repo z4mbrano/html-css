@@ -1,0 +1,18 @@
+<video width="700" poster="thumbnail.png" crontols autoplay>
+	<source src="video.webm" type="video/webm">
+	<source src="video.mp4" type="video/mp4">
+	<source src="video.ogv" type="video/ogg">
+	<p> Infelizmente seu navegador não conseguiu carregar o video <p>
+</video>
+
+width == Indica a largura do video
+height == Indica a altura do video
+<iframe> == para videos URL
+
+---- Navegadores
+
+Edge: mp4, m4v
+Safari: mp4, m4v
+Chrome: mp4, m4v, webm
+Firefox: webm, ogv
+Opera: mp4, webm, ogv

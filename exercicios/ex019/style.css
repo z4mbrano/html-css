@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+header {
+    background-color: lightgray;
+    padding: 20px 0px 0px 0px;
+
+}
+
+#principal {
+    font: normal bold xx-large Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    margin-left: 20px;
+}
+nav {
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    margin-left: 0px;
+}
+nav > a {
+    margin-left: 30px;
+    text-decoration: none;
+    font: normal bold medium 'Courier New', Courier, monospace;
+    color: rgb(68, 68, 68);
+}
+nav > a:hover {
+    color: white;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    border-radius: 5px;
+}
+.Biografia {
+    width: 500px;
+    margin:auto;
+}
+.Biografiatitulo {
+    text-align: center;
+    font: normal bolder xx-large 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+footer {
+    background-color: rgb(34, 33, 33);
+    padding: 30px;
+    padding-bottom: 100px;
+}
+footer > p {
+    text-align: center;
+    font: normal bold medium 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+img {
+    height: 100px;
+    margin:auto;
+    display: block;
+}
+div{
+    margin-bottom:300px;
+}
